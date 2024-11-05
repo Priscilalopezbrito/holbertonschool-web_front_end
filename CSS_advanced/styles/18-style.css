@@ -358,14 +358,15 @@ html {
 }
 
 :root {
+    /*Color*/
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-
+    /*Text*/
     --text-color: var(--color-black);
-
+    /*Font*/
     --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -375,11 +376,11 @@ html {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-
+    /*Line*/
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-
+    /*Section*/
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
@@ -389,15 +390,15 @@ html {
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-
+    /*Footer*/
     --footer-padding: 5rem 0 1rem;
-
+    /*Nav*/
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 3rem 0 0 0;
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 }
 
@@ -423,6 +424,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-primary);
 }
 
+/**/
 .section{
     padding: var(--section-padding);
 }
@@ -459,12 +461,13 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+/**/
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
-
+/**/
 a:link {
     color: var(--text-color);
     text-decoration: none;
@@ -481,7 +484,7 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
-
+/**/
 .nav-menu {
     float: right;
 }
