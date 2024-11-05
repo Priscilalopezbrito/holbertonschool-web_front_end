@@ -350,7 +350,7 @@ template {
 /**
  * Universal box sizing rule
  */
-*, *::before, *::after {
+* {
     box-sizing: inherit;
 }
 
