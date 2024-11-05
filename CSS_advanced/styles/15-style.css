@@ -347,10 +347,15 @@ template {
 [hidden] {
     display: none;
 }
+/**
+ * Universal box sizing rule
+ */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 
 html {
     scroll-behavior: smooth;
-    box-sizing: border-box;
     font-size: 62.5%;
 }
 
