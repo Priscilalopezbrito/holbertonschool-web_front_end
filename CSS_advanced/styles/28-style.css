@@ -646,9 +646,9 @@ ul.row {
     position: var(--header-logo-position);
 }
 
-.header-logo link {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    vert-align: var(--header-logo-link-top);
-    horiz-align: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
