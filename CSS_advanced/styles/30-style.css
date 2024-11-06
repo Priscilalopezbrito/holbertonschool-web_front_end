@@ -672,7 +672,7 @@ ul.row {
     overflow: hidden;
 }
 
-.card-work .card-image img{
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -714,6 +714,6 @@ ul.row {
     content: "";
 }
 
-.card-work .card-title:hover {
+.card-work .card-title {
     opacity: 1;
 }
