@@ -699,10 +699,10 @@ ul.row {
     position: relative;
 }
 
-.card-work .card-title a {
+.card-work a .card-title  {
     display: block;
     text-decoration: none;
-    padding: 45%;
+    padding-top: 45%;
 }
 
 .card-work .card-title a::after {
